@@ -20,7 +20,7 @@ public class TestServlet extends HttpServlet {
 
 	protected void doGet(HttpServletRequest request, HttpServletResponse response)
 			throws ServletException, IOException {
-		System.out.println("test get");
+		System.out.println("test get 6 novembre");
 		// sendGET("http://10.0.0.9:8081/");
 		try {
 			String result = sendGET("https://www.google.com");
